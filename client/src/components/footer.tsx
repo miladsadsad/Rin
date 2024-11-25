@@ -46,7 +46,8 @@ function Footer() {
                 {footerHtml && <div dangerouslySetInnerHTML={{ __html: footerHtml }} />}
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
-                        © 2024 Powered by <a className='hover:underline' href="https://google.com" target="_blank">google</a>
+                        © 2024 Lin <a className='hover:underline' href="https://google.com" target="_blank">Ke</a>
+                        © 2024 Lin <a className='hover:underline' href="https://google.com" target="_blank">Ke</a>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
