@@ -46,7 +46,7 @@ function Footer() {
                 {footerHtml && <div dangerouslySetInnerHTML={{ __html: footerHtml }} />}
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
-                        2D <a className='hover:underline' href="https://mapgenie.io" target="_blank">Game map</a>
+                        2D <a className='hover:underline' href="https://mapgenie.io" target="_blank">Game map  </a>
                         3D <a className='hover:underline' href="https://noclip.website" target="_blank">Game map</a>
                     </span>
                     {config.get<boolean>('rss') && <>
