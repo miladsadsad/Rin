@@ -47,7 +47,6 @@ function Footer() {
                 <p className='text-sm text-neutral-500 font-normal link-line'>
                     <span>
                         Game map <a className='hover:underline' href="https://mapgenie.io" target="_blank"> 2D </a>
-                        <a className='hover:underline' href="https://noclip.website" target="_blank">3D</a>
                     </span>
                     {config.get<boolean>('rss') && <>
                         <Spliter />
